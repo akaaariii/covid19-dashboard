@@ -4,7 +4,7 @@
 
 ### [Demo](https://covid19-dashboard-pi.vercel.app)
 
-This website shows the number of COVID-19 infected, recovered and deaths cases.  
+This website shows COVID-19 infected, recovered and deaths cases.  
 You can see the number of cases worldwide, and also you can search the number of cases by country.
 
 API : COVID-19 API [covid19.mathdro.id](https://covid19.mathdro.id/api)
