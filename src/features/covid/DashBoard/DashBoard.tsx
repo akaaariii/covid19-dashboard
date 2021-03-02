@@ -29,7 +29,7 @@ const DashBoard : React.FC = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className={styles.main}>
       <AppBar position="absolute">
         <Toolbar className={classes.backgroundcolor}>
           <Typography variant="h5" className={classes.title+" "+classes.fontbold}>
