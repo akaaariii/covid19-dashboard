@@ -1,14 +1,22 @@
+import { createMuiTheme } from '@material-ui/core';
 import React from 'react';
-import './App.css';
-import Cards from './features/covid/Cards/Cards';
+import DashBoard from './features/covid/DashBoard/DashBoard';
+import { ThemeProvider } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: [
+      'Lato', 'sans-serif'
+    ].join(','),
+  }
+})
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Cards />
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <DashBoard />
+    </ThemeProvider>
   );
 }
 
