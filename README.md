@@ -10,4 +10,4 @@ You can see the number of cases worldwide, and also you can search the number of
 API : COVID-19 API [covid19.mathdro.id](https://covid19.mathdro.id/api)
 
 ***
-<img width="800" alt="Screen Shot 2021-03-02 at 2 36 36 AM" src="https://user-images.githubusercontent.com/64046039/109638451-e231d600-7b02-11eb-8781-9bc168a4316a.png">
+<img width="800" alt="Screen Shot 2021-03-03 at 1 42 36 AM" src="https://user-images.githubusercontent.com/64046039/109786443-01dc0380-7bc2-11eb-94b0-84c85b4d2196.png">
