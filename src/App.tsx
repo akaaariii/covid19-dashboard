@@ -16,8 +16,10 @@ const theme = createMuiTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <DashBoard />
-      <Footer />
+      <div className="wrapper">
+        <DashBoard />
+        <Footer />
+      </div>
     </ThemeProvider>
   );
 }
