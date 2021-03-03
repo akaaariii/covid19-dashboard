@@ -32,11 +32,11 @@ const DashBoard : React.FC = () => {
     <main>
       <AppBar position="absolute">
         <Toolbar className={classes.backgroundcolor}>
-          <Typography variant="h5" className={classes.title+" "+classes.fontbold}>
+          <Typography variant="h5" className={classes.title+" "+styles.titleFont}>
             COVID-19 Live Dashboard
           </Typography>
           {data && (
-            <Typography variant="body1" className={classes.fontbold}>
+            <Typography variant="body1" className={styles.dateFont}>
               Updated : {new Date(data.lastUpdate).toDateString()}
             </Typography>
           )}

@@ -10,3 +10,9 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (max-width: 575.98px) {
+  footer {
+    font-size: .8rem !important;
+  }
+}
